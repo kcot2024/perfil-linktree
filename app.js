@@ -9,5 +9,5 @@ const descripcion = document.createElement("h2");
 descripcion.textContent = "¡Hola! Para saber más sobre mí, sígueme en mis redes"
 userContainer.appendChild(descripcion)
 descripcion.style.color = "#ffff"
-descripcion.style.fontSize = "14px"
+descripcion.style.fontSize = "16px"
 descripcion.style.marginBottom = "15px";
