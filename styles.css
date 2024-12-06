@@ -1,0 +1,95 @@
+/* Archivo styles.css */
+
+/* Reseteo de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:"Pathway Gothic One", sans-serif;
+    background-image: url(./img/bg.png);
+    background-repeat: repeat;
+
+}
+
+/* Contenedor principal */
+.profile-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+}
+/* Imagen de opciones*/
+.btn-opciones{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Imagen de perfil */
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    border: 3px solid #ddd;
+}
+
+/* Nombre y bio */
+.profile-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+
+
+/* Lista de enlaces */
+.link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    background-color: #ff0141;
+    padding: 20px 15px;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 10px 10px #ffffff;
+}
+
+/* Hover para los enlaces */
+.link:hover {
+    transform: translate(1px, 1px );
+    top: 3px;
+}
+
+.imgSpotify{
+    width: 35px;
+    height: 35px;
+    margin-top: 50px;
+    align-items: center;
+    
+    
+}
